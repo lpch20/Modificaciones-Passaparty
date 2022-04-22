@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-image: url(../img/imagen\ de\ fondo.jpg);
+    background-size: auto;
+}
+
+.navbar-brand img {
+    mix-blend-mode: multiply;
+}
+
+.col-title {
+    margin-top: 200px;
+    text-align: center;
+}
+
+#title1 {
+    display: none;
+}
+
+.col-title h1 {
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: azure;
+}
+
+.col-title img {
+    width: 40px;
+    margin-top: 80px;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row3 h2 {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 40px;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+.card img {
+    height: 250px;
+    transition: height 3s;
+}
+
+.card img:hover {
+    height: 300px;
+}
+
+.row4 h2 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+}
+
+#tini1{
+    height: 262px;
+}
+
+.py-5 {
+    margin-top: 100px;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.py-5 row {
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+
+.col-4 {
+    margin-left: 80px;
+}
+
+.form-control {
+    width: 200px;
+}
+
+.d-flex {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.separator2{
+    display: none;
+}
+
+.row5{
+    display: none;
+}
+
+.row7{
+    display: none;
+}
+
+.col-title2 h1{
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: azure;
+    margin-top: 200px;
+}
+
+.accordion-body{
+    display: flex;
+    justify-content: center;
+}
+
+.accordion{
+    margin: auto;
+    padding: 40px;
+    margin-top: 80px;
+    position: absolute;
+    text-align: center;
+}
+
+.col-events {
+    display: flex;
+    justify-content: center;
+}
+
+
+.accordion-item{
+    margin-bottom: 50px;
+}
+
+#separator-events{
+    margin-bottom: 750px;
+}
+
+.row-pay h2{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+}
+
+.row-pay img{
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.btn2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    padding: 20px;
+    width: 224px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.col-register label{
+    color: aliceblue;
+}
+.col-register{
+    margin-top: 40px;
+}
+
+.terminos{
+    margin-top: 60px;
+}
+
+.icon-black{
+    display: none;
+}
+
+footer{
+    background-color: azure;
+
+}
+
+#subscribirse {
+    border-style: solid;
+    border-color: black;
+}
+
+#second-carousel{
+    width: 400px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+#tini1{
+    height: 225px;
+}
+
+
+@media only screen and (min-width:340px) and (max-width:767px){
+
+
+    .col-title {
+        margin-top: 200px;
+        text-align: center;
+        margin-left: 40px;
+    }
+    
+    #title1 {
+        display: none;
+    }
+
+    .row3 h2 {
+        margin-left: 40px;
+    }
+
+    .row4 h2{
+        margin-left: 40px;
+    }
+    
+    .col-title h1 {
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        color: azure;
+        margin: auto;
+    }
+
+    .col-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card {
+        margin-bottom: 40px;
+        background-color: burlywood;
+        margin-left: 30px;
+        
+    }
+    
+    .card img {
+        height: 250px;
+        transition: height 3s;
+        margin: auto;
+    }
+    
+    .card img:hover {
+        height: 300px;
+    }
+
+    .row4 {
+        margin: auto;
+    }
+
+    #second-carousel{
+        width: 100%;
+    }
+
+    footer{
+        margin-left: 40px;
+        margin: auto;
+    }
+
+    #email-fot{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1019px) {
+    .row5 {
+        display: flex;
+        margin: auto;
+        margin-top: 250px;
+        width: 750px;
+    }
+
+    #title1{
+        display: flex;
+        font-size: 60px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        margin: auto;
+    }
+
+    .col-title h1 {
+        display: none;
+    }
+
+    .icon-color{
+        display: none;
+    }
+
+    .carousel-caption {
+        margin-bottom: 120px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .carousel-caption p {
+        padding: px;
+        font-size: 20px;
+    }
+
+    .carousel-caption img {
+        width: 60px;
+    }
+
+    #second-carousel{
+        width: 700px;
+        margin: auto;
+        margin-bottom: 70px;
+    }
+
+    #tini1{
+        height: 393px;
+    }
+
+   
+
+}
+
+@media only screen and (min-width:1020px) {
+
+    
+    .navbar-brand img {
+        mix-blend-mode: multiply;
+    }
+
+    .col-title h1 {
+        display: none;
+    }
+
+    .col-title img {
+        width: 40px;
+        margin-top: 80px;
+    }
+
+    #title1{
+        display: flex;
+        font-size: 60px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        margin: auto;
+    }
+
+    .row5 {
+        display: flex;
+        margin: auto;
+        margin-top: 125px;
+        width: 1000px;
+    }
+
+    .carousel-caption {
+        margin-bottom: 120px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 60px;
+    }
+
+    .carousel-caption p {
+        padding: 40px;
+        font-size: 20px;
+    }
+
+    .carousel-caption img {
+        width: 60px;
+        margin-bottom: 50px;
+        margin-right: 20px;
+    }
+
+    .media4 {
+        width: 10px;
+    }
+
+    .media5 {
+        width: 10px;
+    }
+
+    .media6 {
+        width: 10px;
+    }
+
+    .row2 {
+        display: none;
+    }
+
+    .separator {
+        margin-top: 290px;
+    }
+
+    .row3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-card {
+        margin-bottom: 40px;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .card {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        background-color: white;
+        opacity: 0.9
+        ;
+    }
+
+    .row3 h2 {
+        margin-top: 50px;
+        margin-bottom: 60px;
+        font-size: 60px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: black;
+        text-align: center;
+    }
+
+    .separator2 {
+        margin-top: 469px;
+    }
+
+    .row4{
+        display: none;
+    }
+
+    .row7{
+        margin-top: 100px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-nexteventes{ 
+        margin: auto;
+        color:black;
+        margin-bottom: 80px;
+    }
+
+    .title-nexteventes h2{
+        font-size: 60px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #tini{
+        height: 173px;
+    }
+
+    .accordion-flush {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .accordion-item{
+        margin-right: 5px;
+    }
+
+    .col-events {
+        display: flex;
+        justify-content: center;
+    }
+
+    .row8{
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-title2 h1{
+        font-size: 80px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        color: azure;
+        margin-top: 200px;
+    }
+
+    .row-pay h2{
+        color: black;
+    }
+
+    .col-pay {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-pay{
+        display: flex;
+
+    }
+
+    .row9{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .col-register{
+        margin-top: 40px;
+        justify-content: space-between;
+    }
+
+    .icon-color{
+        display: none;
+    }
+    
+
+}
