@@ -1,0 +1,25 @@
+{
+  "name": "passaparty-para-modificaciones",
+  "version": "1.0.0",
+  "description": "usando SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/scss/style.scss assets/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpch20/Modificaciones-Passaparty.git"
+  },
+  "author": "Luciano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpch20/Modificaciones-Passaparty/issues"
+  },
+  "homepage": "https://github.com/lpch20/Modificaciones-Passaparty#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
